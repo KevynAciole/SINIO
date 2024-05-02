@@ -1,0 +1,78 @@
+*, button{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI';
+    border: 0;
+}
+.container_home{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../assets/fundo_inicio.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.nav_bar{
+    height: 40px;
+    background-color: rgba(217, 217, 217, 0.32);
+    position: fixed;
+}
+.main_cont{
+    width: 100%;
+    height: 94.6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.texto{
+    margin-bottom: 1%;
+    margin-top: 30px;
+}
+.nav_bar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.logo img{
+    width: 100px;
+}
+.logo{
+    width: 9%;
+    display: flex;
+    justify-content: center;
+}
+.nav_btns{
+    display: flex;
+    width: 220px;
+    align-items: center;
+}
+.btn_cadastar, .btn_entrar{
+    width: 50%;
+}
+.btn_cadastar button, .btn_entrar button{
+    width: 94%;
+    height: 34px;
+    background-color: rgba(62, 146, 174, 1);
+    border: 0px; border-radius: 4px;
+    color: aliceblue;
+    font-weight: 400;
+}
+.btn_entrar button{
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgba(62, 146, 174, 1);
+}
+.btn_comecar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn_comecar button{
+    width: 168px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: rgba(227, 145, 45, 0.92);
+    font-size: 18px;
+    font-weight: 600;
+    color: aliceblue;
+}
