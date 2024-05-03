@@ -24,3 +24,9 @@
 .logo, .dados_pessoais,.dados_veiculo, .btn_recebe_info, .btn_enviar{
     width: 63%;
 }
+.dados_pessoais{
+    height: 20%;
+}
+.dados_veiculo{
+    height: 40%;
+}
